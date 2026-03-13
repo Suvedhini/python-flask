@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-id')
-        IMAGE_NAME = 'suvedhini/Python-flask'
+        IMAGE_NAME = 'suvedhini/python-flask'
     }
 
     stages {
